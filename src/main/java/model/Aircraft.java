@@ -1,10 +1,14 @@
 package model;
 
+import java.util.UUID;
+
 public class Aircraft {
     private String name;
     private Integer number;
     private StateAircraft state;
     private AircraftType type;
+
+    private UUID uuid = UUID.randomUUID();
 
     public Aircraft(String name, Integer number, StateAircraft state, AircraftType type) {
         this.name = name;
@@ -13,6 +17,13 @@ public class Aircraft {
         this.type = type;
     }
     public Aircraft() {
+    }
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(UUID uuid) {
+        this.uuid = uuid;
     }
 
     public String getName() {

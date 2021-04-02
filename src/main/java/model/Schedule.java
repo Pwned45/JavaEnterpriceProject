@@ -2,14 +2,15 @@ package model;
 
 import java.sql.Time;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 
 public class Schedule {
 
-    private Map<Aircraft, Time>  schedule = new HashMap<>();
+    private LinkedList<Offer> schedule = new LinkedList<>();
     private ScheduleType type;
 
-    public Schedule(Map<Aircraft, Time> schedule, ScheduleType type) {
+    public Schedule(LinkedList<Offer> schedule, ScheduleType type) {
         this.schedule = schedule;
         this.type = type;
     }
@@ -17,11 +18,11 @@ public class Schedule {
     public Schedule() {
     }
 
-    public Map<Aircraft, Time> getSchedule() {
+    public LinkedList<Offer> getSchedule() {
         return schedule;
     }
 
-    public void setSchedule(Map<Aircraft, Time> schedule) {
+    public void setSchedule(LinkedList<Offer> schedule) {
         this.schedule = schedule;
     }
 

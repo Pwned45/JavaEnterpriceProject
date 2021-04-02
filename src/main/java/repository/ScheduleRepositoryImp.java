@@ -1,17 +1,17 @@
 package repository;
 
-import model.Aircraft;
+import model.Offer;
 import model.Schedule;
 import model.ScheduleType;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Time;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
+@Repository
 public class ScheduleRepositoryImp implements  ScheduleRepository {
     private List<Schedule> list = new ArrayList<Schedule>(){{
-        add(new Schedule(new HashMap<Aircraft, Time>(), ScheduleType.Daily));
+        add(new Schedule(new LinkedList<Offer>(), ScheduleType.DAILY));
     }};
     @Override
     public Schedule getById(Integer id) {
@@ -19,12 +19,12 @@ public class ScheduleRepositoryImp implements  ScheduleRepository {
     }
 
     @Override
-    public void deleteById(Integer id) {
-        list.remove((int)id);
+    public List<Schedule> getAll() {
+        return list;
     }
 
     @Override
-    public List<Schedule> getAll() {
-        return list;
+    public void deleteById(UUID uuid) {
+
     }
 }

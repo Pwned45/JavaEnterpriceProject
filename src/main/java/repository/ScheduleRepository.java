@@ -4,9 +4,10 @@ import model.Schedule;
 
 
 import java.util.List;
+import java.util.UUID;
 
 public interface ScheduleRepository {
     Schedule getById (Integer id);
-    void deleteById (Integer id);
     List<Schedule> getAll();
+    void deleteById (UUID uuid);
 }
