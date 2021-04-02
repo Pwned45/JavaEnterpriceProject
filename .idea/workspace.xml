@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23e759a-ef09-46fc-b79c-eb957f34b163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/OfferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/OfferRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/RunwayRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/RunwayRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/AircraftService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/OfferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/RunwayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ScheduleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/AircraftType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AircraftType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/OfferType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/OfferType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Runway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Runway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Schedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ScheduleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ScheduleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/StateAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/StateAircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/StateRunway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/StateRunway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AircraftRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AircraftRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AircraftRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AircraftRepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ScheduleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ScheduleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ScheduleRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ScheduleRepositoryImp.java" afterDir="false" />
-    </list>
+    <list default="true" id="b23e759a-ef09-46fc-b79c-eb957f34b163" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +77,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617395512685</updated>
-      <workItem from="1617395515630" duration="7159000" />
+      <workItem from="1617395515630" duration="7213000" />
     </task>
+    <task id="LOCAL-00001" summary="03.04.21">
+      <created>1617403189140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617403189140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="03.04.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.04.21" />
   </component>
 </project>
