@@ -1,6 +1,6 @@
-package repository;
+package directory.repository;
 
-import model.Aircraft;
+import directory.model.Aircraft;
 
 import java.util.List;
 import java.util.UUID;

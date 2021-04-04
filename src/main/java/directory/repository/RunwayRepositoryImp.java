@@ -1,6 +1,6 @@
-package repository;
+package directory.repository;
 
-import model.Runway;
+import directory.model.Runway;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,11 +1,10 @@
-package repository;
+package directory.repository;
 
-import model.Offer;
-import model.Schedule;
-import model.ScheduleType;
+import directory.model.Offer;
+import directory.model.Schedule;
+import directory.model.ScheduleType;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Time;
 import java.util.*;
 
 @Repository

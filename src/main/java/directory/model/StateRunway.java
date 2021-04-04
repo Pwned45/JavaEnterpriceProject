@@ -1,4 +1,4 @@
-package model;
+package directory.model;
 
 enum StateRunway {
     FREE,

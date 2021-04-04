@@ -1,4 +1,4 @@
-package model;
+package directory.model;
 
 public enum StateAircraft {
     FLYING,

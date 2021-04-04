@@ -1,8 +1,8 @@
-package repository;
+package directory.repository;
 
-import model.Aircraft;
-import model.Offer;
-import model.OfferType;
+import directory.model.Aircraft;
+import directory.model.Offer;
+import directory.model.OfferType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

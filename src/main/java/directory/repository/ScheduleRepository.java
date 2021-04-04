@@ -1,6 +1,6 @@
-package repository;
+package directory.repository;
 
-import model.Schedule;
+import directory.model.Schedule;
 
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package service;
+package directory.service;
 
-import model.Aircraft;
+import directory.model.Aircraft;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.AircraftRepository;
+import directory.repository.AircraftRepository;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,6 +1,6 @@
-package repository;
+package directory.repository;
 
-import model.Offer;
+import directory.model.Offer;
 
 import java.util.List;
 import java.util.UUID;

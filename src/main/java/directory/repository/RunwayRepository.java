@@ -1,7 +1,7 @@
-package repository;
+package directory.repository;
 
 
-import model.Runway;
+import directory.model.Runway;
 
 import java.util.List;
 import java.util.UUID;

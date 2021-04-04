@@ -1,5 +1,6 @@
+package directory;
 
-import config.ApplicationConfig;
+import directory.config.ApplicationConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -15,7 +16,7 @@ public class AirApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new AnnotationConfigApplicationContext(AirApplication.class);
-//		SimulationService simulationService = context.getBean(AirApplication.class);
+//		SimulationService simulationService = context.getBean(directory.AirApplication.class);
 //		simulationService.start();
 	}
 }

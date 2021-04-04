@@ -1,9 +1,9 @@
-package repository;
+package directory.repository;
 
 
-import model.Aircraft;
-import model.AircraftType;
-import model.StateAircraft;
+import directory.model.Aircraft;
+import directory.model.AircraftType;
+import directory.model.StateAircraft;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
